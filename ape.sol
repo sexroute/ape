@@ -1895,7 +1895,7 @@ abstract contract Ownable is Context {
 // File: contracts/BoredApeYachtClub.sol
 
 
-pragma solidity ^0.7.0;
+pragma solidity ^0.8.0;
 
 
 
