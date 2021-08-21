@@ -6,7 +6,7 @@
 
 // SPDX-License-Identifier: MIT
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /*
  * @dev Provides information about the current execution context, including the
@@ -33,7 +33,7 @@ abstract contract Context {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @dev Interface of the ERC165 standard, as defined in the
@@ -60,7 +60,7 @@ interface IERC165 {
 
 
 
-pragma solidity >=0.6.2 <0.8.0;
+pragma solidity >=0.6.2 <=0.8.0;
 
 
 /**
@@ -191,7 +191,7 @@ interface IERC721 is IERC165 {
 
 
 
-pragma solidity >=0.6.2 <0.8.0;
+pragma solidity >=0.6.2 <=0.8.0;
 
 
 /**
@@ -220,7 +220,7 @@ interface IERC721Metadata is IERC721 {
 
 
 
-pragma solidity >=0.6.2 <0.8.0;
+pragma solidity >=0.6.2 <=0.8.0;
 
 
 /**
@@ -251,7 +251,7 @@ interface IERC721Enumerable is IERC721 {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @title ERC721 token receiver interface
@@ -275,7 +275,7 @@ interface IERC721Receiver {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 
 /**
@@ -331,7 +331,7 @@ abstract contract ERC165 is IERC165 {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
@@ -548,7 +548,7 @@ library SafeMath {
 
 
 
-pragma solidity >=0.6.2 <0.8.0;
+pragma solidity >=0.6.2 <=0.8.0;
 
 /**
  * @dev Collection of functions related to the address type
@@ -740,7 +740,7 @@ library Address {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @dev Library for managing
@@ -1040,7 +1040,7 @@ library EnumerableSet {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @dev Library for managing an enumerable variant of Solidity's
@@ -1309,7 +1309,7 @@ library EnumerableMap {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @dev String operations.
@@ -1346,7 +1346,7 @@ library Strings {
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 
 
@@ -1826,7 +1826,7 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable 
 
 
 
-pragma solidity >=0.6.0 <0.8.0;
+pragma solidity >=0.6.0 <=0.8.0;
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
